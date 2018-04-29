@@ -9,10 +9,10 @@ export default [
     }, 
     {
       title: 'About Us',
-      url: '/about'
+      url: '/About'
     }, 
     {
       title: 'Contact Us',
-      url: '/contact'
+      url: '/Contacto'
     }
   ];

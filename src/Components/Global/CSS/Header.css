@@ -22,6 +22,15 @@
   padding-right: 10px;
 }
 
+.Menu li a{
+  color: cadetblue;
+  text-decoration: none;
+}
+.Menu li a:hover{
+  color:azure;
+  
+}
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
