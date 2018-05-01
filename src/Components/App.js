@@ -12,10 +12,10 @@ import items from '../Data/menu';
 
 class App extends Component {
   static propTypes = {
-  children: PropTypes.object.isRequiered
+  children: PropTypes.object.isRequired
 };
   render() {
-    const {children}=this.props;
+    const children = this.props.children;
     return (
       <div className="App">
         <Header title="Menu" items={items}/>
